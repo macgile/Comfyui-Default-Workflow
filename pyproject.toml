@@ -1,0 +1,20 @@
+[project]
+name = "default-workflow-override"
+version = "0.0.7"
+description = "Override ComfyUI's built-in default workflow with a custom workflow embedded in the frontend extension."
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "jean passant" }
+]
+classifiers = [
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3"
+]
+
+[tool.comfy]
+PublisherId = "le-passant-par-la"
+DisplayName = "Default Workflow"
+includes = ["js"]
+web = "./js"

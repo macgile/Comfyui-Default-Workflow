@@ -1,0 +1,3 @@
+{
+  "ComfyUIDefaultWorkflow": "Marker node for the Default Workflow Override frontend extension. The replacement workflow is embedded in js/override.js and is loaded instead of ComfyUI's built-in default workflow."
+}

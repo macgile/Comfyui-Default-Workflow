@@ -1,0 +1,12 @@
+{
+  "author": "jean passant",
+  "title": "Default Workflow Override",
+  "id": "default-workflow-override",
+  "reference": "https://github.com/YOUR_GITHUB_USERNAME/default-workflow-override",
+  "files": [
+    "https://github.com/YOUR_GITHUB_USERNAME/default-workflow-override"
+  ],
+  "install_type": "git-clone",
+  "description": "Overrides ComfyUI's built-in default workflow with a custom workflow embedded in js/override.js.",
+  "nodename_pattern": "ComfyUIDefaultWorkflow"
+}

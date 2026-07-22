@@ -1,0 +1,11 @@
+{
+  "author": "jean passant",
+  "title": "Default Workflow Override",
+  "id": "default-workflow-override",
+  "reference": "LOCAL_ONLY_Default_Workflow_Override",
+  "files": [
+    "LOCAL_ONLY_Default_Workflow_Override"
+  ],
+  "install_type": "git-clone",
+  "description": "Frontend extension that replaces ComfyUI's built-in default workflow with the workflow embedded in js/override.js."
+}
